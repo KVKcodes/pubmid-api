@@ -3,6 +3,17 @@ name = "pubmed-papers"
 version = "0.1.0"
 description = "A tool to fetch research papers from PubMed with company affiliations"
 authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+packages = [{include = "pubmed_papers"}]
+repository = "https://github.com/yourusername/pubmed-papers"
+keywords = ["pubmed", "research", "pharmaceutical", "biotech", "affiliations"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.9",
+]
 
 [tool.poetry.dependencies]
 python = "^3.9"
@@ -19,7 +30,6 @@ pytest = "^7.4.0"
 black = "^23.7.0"
 mypy = "^1.5.1"
 isort = "^5.12.0"
-ipykernel = "^6.29.5"
 
 [tool.poetry.scripts]
 get-papers-list = "pubmed_papers.cli:main"
