@@ -2,6 +2,8 @@
 
 A Python tool to fetch research papers from PubMed and identify those with pharmaceutical/biotech company affiliations.
 
+Made for internship assignment
+
 ## Features
 
 - Search PubMed using full query syntax
@@ -75,7 +77,3 @@ This project uses:
 - Black for code formatting
 - MyPy for type checking
 - isort for import sorting
-
-## License
-
-MIT 
